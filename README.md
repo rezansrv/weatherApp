@@ -1,3 +1,3 @@
 ## Screenshots
 
-![ main Page screenshot](./images/screenshots/Screenshot1.png)
+![ main Page screenshot](./images/Screenshot1.png)
