@@ -80,5 +80,15 @@ search.addEventListener('click', () => {
 
         });
 
+});
 
+document.addEventListener("DOMContentLoaded", () => {
+    const searchInput = document.querySelector(".search-box input");
+    const searchButton = document.querySelector(".search-box button");
+
+    searchInput.addEventListener("keypress", (event) => {
+        if (event.key === "Enter") {
+            searchButton.click();
+        }
+    });
 });
